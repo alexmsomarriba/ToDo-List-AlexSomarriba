@@ -11,6 +11,11 @@
     <button onclick="fetchTodos()">Fetch Todos</button>
     <button onclick="logTodos()">Log Todos</button>
     <button onclick="populateTodos()">Populate Todos</button>
+    <label for="userIdInput">user id</label>
+    <input type="number" min="1" max="10" id="userIdInput" name="userIdInput">
+    <button onclick="filterTodos()">filter user ids</button>
+    <button onclick="filterByCompleted()">filter by complted</button>
+    <button onclick="filterByNonCompleted()">filter by non complted</button>
     <ol id="todo-list">
     <!-- LIs will go here -->
     </ol>
